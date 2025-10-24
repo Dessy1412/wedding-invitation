@@ -1,0 +1,23 @@
+@reference "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#D0036F] text-white font-semibold px-8 py-3 
+             rounded-tl-[10px] rounded-tr-[50px] rounded-br-[10px] rounded-bl-[50px]
+             flex items-center gap-2 transition duration-300;
+  }
+  .btn-primary:hover {
+    @apply bg-[#D0036F];
+  }
+  .bg-primary {
+    @apply bg-[#0057B8];
+  }
+  .btn-secondary {
+    @apply bg-[#F26522] text-white font-semibold px-8 py-3 
+             rounded-tl-[10px] rounded-tr-[50px] rounded-br-[10px] rounded-bl-[50px]
+             flex items-center gap-2 transition duration-300;
+  }
+  .btn-secondary:hover {
+    @apply bg-[#F26522];
+  }
+}
