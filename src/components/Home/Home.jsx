@@ -26,7 +26,9 @@ export default function Home() {
               Project
             </a>
             <a
-              href=""
+              href="public/docs/portfolio-dessy.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2  btn-secondary text-white"
             >
               <BiFile />

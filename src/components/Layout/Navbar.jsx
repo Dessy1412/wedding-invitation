@@ -6,8 +6,9 @@ export default function Navbar() {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "education", label: "Education" },
+    { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
-    { id: "certiforganiza", label: "Certifications & Organizations" },
+    { id: "certif", label: "Certifications" },
     { id: "contact", label: "Contact" },
   ];
   return (

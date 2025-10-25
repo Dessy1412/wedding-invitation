@@ -5,6 +5,10 @@ import Navbar from "./components/Layout/Navbar";
 import Home from "./components/Home/Home";
 import Animations from "./components/Animations/Animations";
 import About from "./components/About/About";
+import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
+import Certifications from "./components/Certifications/Certifications";
 
 function App() {
   return (
@@ -14,6 +18,11 @@ function App() {
         <Home />
         <Animations />
         <About />
+        <Education />
+        <Experience />
+        <Projects />
+        <Animations />
+        <Certifications />
       </div>
 
       <section

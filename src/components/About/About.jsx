@@ -3,7 +3,7 @@ import { FaRocket } from "react-icons/fa";
 export default function About() {
   return (
     <>
-      <div className="h-[32rem] flex flex-col items-center py-20">
+      <div className="h-[21rem] flex flex-col items-center py-18">
         <div className="flex flex-col gap-8 w-full max-w-[1317px] rounded-xl  bg-[#351313]/10 p-10 ">
           {/* Judul */}
           <div className="flex items-center gap-2 ">
