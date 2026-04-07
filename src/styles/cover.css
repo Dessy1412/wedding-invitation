@@ -1,0 +1,114 @@
+.cover {
+  background-image: url("/cover.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 20px;
+  color: var(--white);
+  align-items: center;
+  text-align: center;
+}
+.wedding-title {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+}
+.couple-names {
+  font-family: var(--font-main);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cover-guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+.greeting {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.guest-name {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.note {
+  font-family: var(--font-main);
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+.open-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+  padding: 8px 14px;
+  border: 1px solid var(--white);
+  background: transparent;
+  color: var(--white);
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 1rem auto 0 auto;
+  animation: glow 2s infinite;
+  transition: 0.3s;
+}
+.open-btn:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+.icon {
+  font-size: 14px;
+}
+.cover.fade-out {
+  animation: fadeOut 0.8s ease forwards;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1025px) {
+  .cover {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
+
+/* Animasi */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+}
