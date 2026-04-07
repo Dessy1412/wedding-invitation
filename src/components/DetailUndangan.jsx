@@ -171,7 +171,7 @@ export default function DetailUndangan({ audioRef }) {
       {/* Section Cover */}
       <div className="wrapper ">
         <div className="section-cover reveal">
-          <img src="/cover.png" alt="cover" className="img" />
+          <img src="/cover.webp" alt="cover" className="img" />
 
           <div className="overlay-text">
             <h2 className="title">The Wedding Of</h2>
@@ -189,7 +189,7 @@ export default function DetailUndangan({ audioRef }) {
       {/* Section Ayat  */}
       <div className="wrapper">
         <div className="section-ayat reveal">
-          <img src="/poto3.png" className="section-img" />
+          <img src="/poto3.webp" className="section-img" />
           <div className="text-ayat">
             <motion.p
               className="desc-ayat"
@@ -251,7 +251,7 @@ export default function DetailUndangan({ audioRef }) {
           <div className="profiles">
             <div className="profile">
               <img
-                src="/potowanita.png"
+                src="/potowanita.webp"
                 alt="Indina"
                 className="profile-img img"
               />
@@ -272,7 +272,7 @@ export default function DetailUndangan({ audioRef }) {
             </div>
             <p className="section-title-mini">&</p>
             <div className="profile">
-              <img src="/potopria.png" alt="Bynsar" className="profile-img" />
+              <img src="/potopria.webp" alt="Bynsar" className="profile-img" />
               <h3>Bynsar Limbong S. ST. Pel</h3>
               <p>
                 Putra Pertama dari <br /> Bapak Heppy Rampean dan Ibu Selni
@@ -297,7 +297,7 @@ export default function DetailUndangan({ audioRef }) {
         <div className="savedate-section reveal">
           {/* SAVE THE DATE */}
           <div className="save-card reveal">
-            <img src="/poto4.png" className="save-img" />
+            <img src="/poto4.webp" className="save-img" />
             <div className="save-overlay">
               <motion.h2
                 initial={{ opacity: 0, y: -10 }}
@@ -366,13 +366,13 @@ export default function DetailUndangan({ audioRef }) {
             <h2 className="section-title">Our Moments</h2>
 
             <div className="moments-grid">
-              <img src="/poto4.png" alt="moment1" />
-              <img src="/poto6.png" alt="moment2" />
-              <img src="/poto1.png" alt="moment3" />
-              <img src="/poto7.png" alt="moment4" />
-              <img src="/poto3.png" alt="moment5" />
-              <img src="/poto5.png" alt="moment6" />
-              <img src="/poto2.png" alt="moment7" />
+              <img src="/poto4.webp" alt="moment1" />
+              <img src="/poto6.webp" alt="moment2" />
+              <img src="/poto1.webp" alt="moment3" />
+              <img src="/poto7.webp" alt="moment4" />
+              <img src="/poto3.webp" alt="moment5" />
+              <img src="/poto5.webp" alt="moment6" />
+              <img src="/poto2.webp" alt="moment7" />
             </div>
           </div>
         </div>
@@ -550,7 +550,7 @@ Barat, Jakarta Utara`)
       <div className="wrapper">
         <section className="section-last reveal">
           <div className="section-img-wrapper">
-            <img src="/poto2.png" alt="couple" className="section-img" />
+            <img src="/poto2.webp" alt="couple" className="section-img" />
           </div>
           <div className="last-box">
             <h2 className="section-title">Terima Kasih</h2>
