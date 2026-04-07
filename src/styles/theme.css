@@ -3,7 +3,7 @@
   --white: #ffffff;
 
   --font-title: "Great Vibes", cursive;
-  --font-body: "Cormorant Garamond", serif;
-
+  --font-main: "Cormorant Garamond", serif;
+  --font-body: "Poppins", sans-serif;
   --arch-top: 200px 200px 0 0;
 }
