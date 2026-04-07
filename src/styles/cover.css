@@ -34,8 +34,8 @@
 }
 .guest-name {
   font-family: "Merriweather", serif;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: clamp(12px, 4vw, 16px);
+  font-weight: 300;
   margin: 5px 0;
 }
 .note {
